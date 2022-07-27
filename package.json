@@ -1,5 +1,6 @@
 {
   "name": "react-native-firebase",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "version": "node ./scripts/version.js",
@@ -86,7 +87,8 @@
   },
   "workspaces": {
     "packages": [
-      "packages/*",
+      "packages/app",
+      "packages/firestore",
       "tests"
     ],
     "nohoist": [
